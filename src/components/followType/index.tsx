@@ -7,9 +7,6 @@ const FollowType:React.FC<Props> = ({ clicked }) => {
     return (
         <div className="container">
             <span>Seguindo</span>
-            <div id="mask">
-
-            </div>
             <div id={clicked ? "show" : "hide"}>
 
             </div>
