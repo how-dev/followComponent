@@ -1,0 +1,23 @@
+.container {
+    height: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.container span {
+    position: absolute;
+}
+#hide {
+    height: 30px;
+    width: 118px;
+    z-index: 2;
+    background: #282c34;
+    transition: .5s;
+}
+#show {
+    height: 30px;
+    width: 70px;
+    z-index: 2;
+    background: #282c34;
+    transition: 1s;
+}
